@@ -73,7 +73,7 @@ def cetak(isi,total):
             print("| [##] Enter untuk keluar |")
             print("‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾")
             print("Keluar program...")
-            time.sleep(0)
+            time.sleep(2.5)
             exit()
         elif total > 0:
             clear_screen()
@@ -94,7 +94,7 @@ def cetak(isi,total):
             print("| [99] Ambil diskon       |")
             print("‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾")
             print("Keluar program...")
-            time.sleep(0)
+            time.sleep(2.5)
             exit()
 #EDIT_DAFTAR
 def edit_daftar(isi,total):
@@ -1220,7 +1220,7 @@ if __name__ == "__main__":
     clear_screen()
     print("    --SHIAN PRINTING--    ")
     print("by Rausyanfikr ; 2009106020")
-    time.sleep(0.5)
+    time.sleep(3)
     isi = []
     total = 0
     clear_screen()
