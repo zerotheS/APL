@@ -1,3 +1,4 @@
+#njirr bisa
 import os
 import time
 #CLS
