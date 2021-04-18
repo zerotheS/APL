@@ -3,12 +3,12 @@ import time
 #CLS
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
-#CETAK
+#CETAK1
 def cetak1(isi,total):
     clear_screen()
     print("[Belum ada daftar belanja]")
     cetak(isi,total)
-#CETAK1
+#CETAK2
 def cetak2(isi,total):
     clear_screen()
     print("Daftar belanjaan saat ini:")
@@ -17,7 +17,7 @@ def cetak2(isi,total):
     print("--Total harga = Rp",total)
     print("")
     cetak(isi,total)
-#CETAK2
+#CETAK
 def cetak(isi,total):
     print("---Toko Percetakan SHIAN---")
     print("___________________________")
